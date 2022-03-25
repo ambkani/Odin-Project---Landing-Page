@@ -1,0 +1,167 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+footer {
+  background-color: #2e7adf;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero__sub,
+nav {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero__sub {
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 2px;
+  color: #e5e7eb;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 26px;
+}
+
+.navigation {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  width: 80%;
+  height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__content {
+  width: 50%;
+}
+
+.main-img {
+  width: 40%;
+}
+
+.hero__btn {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ff57b9;
+  color: #f9faf8;
+  border: none;
+  padding: 6px 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.services {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.services__items {
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+.services__img {
+  width: 100%;
+}
+.services__item {
+  flex: 1;
+}
+
+.services__item1-text {
+  line-height: 1.6;
+}
+
+.quote {
+  width: 100%;
+  background-color: #2e7adf;
+  padding: 20px;
+}
+
+.quote__container {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.quote__text {
+  font-size: 36px;
+  line-height: 1.6;
+  color: #e5e7eb;
+}
+
+.cta {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.cta__card {
+  background-color: #2e7adf;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  border-radius: 6px;
+  padding: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #f9faf8;
+  padding: 0;
+  margin: 0;
+}
+.cta__card-btn {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #2e7adf;
+  color: #f9faf8;
+  border: 1px solid #f9faf8;
+  padding: 6px 20px;
+  border-radius: 6px;
+}
+
+.cta__card-sub {
+  color: #e5e7eb;
+  margin: 0;
+}
